@@ -11,13 +11,13 @@
 /*
 
 /*
-The 'isprime' function checks if the passed argument to isprime a prime number or not.
-It checks if the number is a multiple of two or is 1 or 0. If it meets any of the previous
-criteria, it immediately disqualifies the number. Then we check for all odd numbers, 
-if they perfectly divide the given number going till the square root of the number as 
-we know the rule. Then we iterate in the 'main' function from the square root of
-the given number as it is much faster than checking from zero and then we check
-if it divides the given number perfectly.
+	The 'isprime' function checks if the passed argument to isprime a prime number or not.
+	It checks if the number is a multiple of two or is 1 or 0. If it meets any of the previous
+	criteria, it immediately disqualifies the number. Then we check for all odd numbers, 
+	if they perfectly divide the given number going till the square root of the number as 
+	we know the rule. Then we iterate in the 'main' function from the square root of
+	the given number as it is much faster than checking from zero and then we check
+	if it divides the given number perfectly.
 */
 #include<stdio.h>
 #include<stdlib.h>
